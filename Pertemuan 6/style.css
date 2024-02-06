@@ -1,0 +1,132 @@
+.container{
+    width: 100%;
+    /* vh = agar tingginya full screen */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+/* ini cuman bikin doang */
+@keyframes berubah-ukuran{
+    /* scale => mengkali ukuran tinggi dan lebar */
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+/* ini cara implemenetasi */
+.ukuran{
+    animation: berubah-ukuran 2s infinite alternate;
+    /* alternate = setelah animasi mencapai titk akhir, animasi akan mundur/ balik ke titk awal secara smooth*/
+}
+
+/* x= horizontal
+y = vertikal */
+
+@keyframes naik-turun{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(50px);
+    }
+}
+
+.atas-bawah{
+    animation: naik-turun 5s infinite alternate;
+}
+
+@keyframes kiri-kanan {
+    /* translate artinya merubah posisi */
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
+
+.kiri-kanan{
+    animation: kiri-kanan .5s infinite alternate;
+}
+
+/* deg = derajat */
+@keyframes rotation{
+
+    /* rotate = berputar */
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.rotate{
+    animation: rotation 5s linear infinite;
+}
+
+
+/* transition */
+
+.hover-scale{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 2s ease-out;
+}
+
+.hover-scale:hover{
+    background-color: blue;
+
+    /* skew = italic */
+    transform: skew(50deg);
+}
+
+.filter{
+    /* blur semakin besar, semakin ilang */
+    filter: grayscale(50%) blur(10px);
+}
+
+.box-shadow{
+    /* a = horizontal offset 
+    b = vertical offset 
+    c = blur radius
+    d = warna (blue) / rgba() */
+
+    /* box-shadow: a b c d; */
+
+    box-shadow: 10px 5px rgba(0, 0, 0, .3);
+}
+
+@keyframes mobil-jalan{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+.car{
+    animation:mobil-jalan 10s infinite;
+}
+
+.icon{
+    animation: naik-turun 5s infinite alternate;
+}
+

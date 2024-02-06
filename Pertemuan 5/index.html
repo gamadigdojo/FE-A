@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8258775b27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- flex/display:flex -->
+
+    <!-- logic =
+    flex itu dipake di parent, kemudian kita kasih justify content, nanti efeknya akan diimplementasiin di child nya
+    -->
+
+    <!-- center
+    membuat konten child berada di tengah parent classnya
+    -->
+
+    <!-- flex start (default) 
+    element child nya kita posisikan di kiri dari parent classnya (udah by default, childnya itu ada di kiri dari parent classnya)
+    -->
+
+    <!-- flex end 
+    lawannya flex start (posisinya di kanan)
+    -->
+
+    <!-- space around 
+    elementnya akan ada jarak sebelum, antara, dan setelah kontennya
+    -->
+
+    <!-- space between 
+    akan ada jarak di antara elementnya
+    -->
+
+    <!-- space evenly
+    dia hampir sama dengan space around, cuman space nya dia setara
+    -->
+
+    <!-- parent -->
+    <div class="container">
+
+        <!-- child -->
+        <div class="a">
+            1
+        </div>
+
+        <div class="a">
+            2
+        </div>
+
+        <div class="a">
+            3
+        </div>
+
+    </div>
+
+    <nav class="nav-container">
+        <div class="logo">
+            <h1>BNCC</h1>
+        </div>
+
+        <div class="nav-links">
+            <a href="">
+                <i class="fa-solid fa-code"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-question"></i>
+            </a>
+            <a href="https://www.facebook.com/?locale=id_ID">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+
+        <div class="contact-us">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <nav class="nav">
+        <div class="left">
+            <div class="logos">
+                <h1>Miri UI</h1>
+            </div>
+
+            <div class="links">
+                <p><i class="fa-solid fa-house"></i> Home</p>
+                <p><i class="fa-solid fa-paint-roller"></i> Templates</p>
+                <p><i class="fa-solid fa-file"></i> Pages</p>
+                <p><i class="fa-brands fa-slack"></i> Elements</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <input type="button" value="Buy Now">
+            <input type="button" value="Discover">
+        </div>
+    </nav>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* cellpading */
+.cellpadding{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cellpadding table{
+    width: 50%;
+}
+
+.cellpadding table, .cellpadding th, .cellpadding td{
+    border: 1px solid black;
+}
+
+/* cellspacing */
+.cellpadding th{
+    padding: 20px;
+}
+
+.cellpadding td{
+    padding: 100px;
+}
+
+.cellspacing{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cellspacing table{
+    width: 50%;
+    border-spacing: 50px;
+    /* border spacing gk akan bekerja kalo ada border collapse */
+}
+
+.cellspacing table, .cellspacing th, .cellspacing td{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+.colspan{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.colspan table{
+    width: 50%;
+}
+
+.colspan table, .colspan th, .colspan td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.rowspan{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.rowspan table{
+    width: 50%;
+}
+
+.rowspan table, .rowspan th, .rowspan td{
+    border: 1px solid #c96444;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.iBox{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    /* inline block -> dikasih width & height */
+}
+
+.contain h1{
+    width: 550px;
+}
+
+img{
+    width: 100px;
+    height: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container table, .container th, .container td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+

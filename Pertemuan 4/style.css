@@ -1,0 +1,61 @@
+/* menselect semua element */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.example{
+    width: 1000px;
+    height: 1000px;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: whitesmoke;
+}
+
+/* background color */
+.color{
+    margin-bottom: 30px;
+    color: black;
+    background-color: blue;
+}
+
+/* backkground image */
+
+/* url */
+.image-url{
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    opacity: .1;
+}
+
+/* local */
+.image-local{
+    background-image: url('./assets/background.svg');
+}
+
+.repeat{
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: repeat;
+    /* by default itu repeat */
+    /* y-> vertikal, x-> horizontal */
+}
+
+.attachment{
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    /* scroll hampir sama kyk local */
+    background-attachment: scroll;
+}
+
+.position{
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.opacity{
+    color: blue;
+    /* semakin kecil / mendekati 0, semakin transparant */
+    opacity: .1;
+}
+

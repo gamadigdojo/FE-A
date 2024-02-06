@@ -1,0 +1,114 @@
+/* css selector */
+
+body{
+    padding: 20px 100px 0px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px; */
+
+    /* padding & margin */
+}
+
+/* css selector class */
+.nav-container{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+
+    display: flex;
+    /* by default direction row */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* css selector (menselect element) */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    /* gap (space antar element) */
+    /* display: flex;
+    align-items: center;
+    gap: 100px; */
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px 30px 7px 30px;
+}
+
+/* pseudo class */
+button:hover{
+    background-color: red;
+}
+
+/* css selector (id) */
+#main{
+    margin-top: 300px;
+    max-width: 50%;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: -60px;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.desc{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    /* precendence */
+    color: black;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#footer-container{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-footer{
+    display: flex;
+    gap: 50px;
+}
+
+/* media query -> web responsif (bisa diakses di segala device)*/
+/* > 1080 */
+@media screen and (max-width: 1250px) {
+    
+    .navbar button{
+        /* sembunyiin */
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .logo{
+        display: none;
+    }
+}
+
