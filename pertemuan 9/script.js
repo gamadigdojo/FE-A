@@ -13,14 +13,15 @@ b.addEventListener('click', function(){
     a.appendChild(c)
 })
 
+
 // prompt
 
-// var nama = prompt("Masukkan nama anda:")
+var nama = prompt("Masukkan nama anda:")
 
-// if(nama !== null && nama !== ''){
-//     alert("Halo "+ nama +"! Selamat datang di situs kami")
-// }else{
-//     alert("Anda belum memasukkan nama")
-// }
+if(nama !== null && nama !== ''){
+    alert("Halo "+ nama +"! Selamat datang di situs kami")
+}else{
+    alert("Anda belum memasukkan nama")
+}
 
 

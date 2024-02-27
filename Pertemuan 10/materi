@@ -1,0 +1,18 @@
+jquery
+
+1. Apa itu library?
+kumpulan code" yg telah di olah untuk mempermudah pengembang (developer) dalam mengembangkan sebuah software
+
+2. Apa itu jquery?
+jQuery adalah sebuah library yang mempermudah kita dalam penulisan javascript
+
+3. Apa itu CDN?
+CDN alah singkatan dari Content Delivery Network. Sebuah jaringan server global yang berlokasi di berbagai tempat. CDN digunakan untuk
+mengirimkan data (library, script, link dll) ke device kita
+
+4. Tipe dari jQuery
+- Local jQuery
+  Download jQuerynya ke device kita, kemudian kita masukkan ke folder website kita, baru bisa dipakai
+
+- CDN jQuery
+  Menggunakan jQuery tanpa harus download
