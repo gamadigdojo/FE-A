@@ -1,11 +1,11 @@
 // mengubah teks setelah dokument dimuat
 $(document).ready(function(){
-    $("h1").text("Selamat malam")
+    $("h1").text("Selamat pagi")
 })
 
 // Selector using jQuery for class, id, html
 $(document).ready(function(){
-    $("#test").css("color","blue")
+    $("#test").css("color","red")
 })
 
 // events menggunakan jQuery
@@ -48,7 +48,7 @@ $("#fade").click(function(){
 })
 
 // fadeTo
-$("#fadeTo").click(function(){
+$(".fadeTo").click(function(){
     $(this).fadeTo("slow", 0.1)
 })
 
@@ -84,7 +84,7 @@ $(document).ready(function(){
 
     // addClass
 
-    $("#add").click(function(){
+    $('#add').click(function(){
         $("#content").addClass("highlight")
     })
 
